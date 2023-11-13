@@ -11,7 +11,7 @@
 
 <body>
     <div class="block1">
-        <button>Again</button>
+        <button onclick="resetHandler()" class="again">Again</button>
         <h2>Guess My Number</h2>
         <p class="hidden">?</p>
         <p>(Number between 1-20)</p>
@@ -19,12 +19,12 @@
     </div>
 
     <div class="block2">
-        <input type="number">
-        <button>Check</button>
+        <input class="input" type="number">
+        <button class="check" onclick="checkNumber()">Check</button>
         <section>
-            <p>🚀start guessing...</p>
-            <p>🔥Score: <span>20</span></p>
-            <p>💓Highest Score: <span>0</span></p>
+            <p class="message">start guessing...</p>
+            <p>🔥Score: <span class="score">20</span></p>
+            <p>💓High Score: <span class="high-score">0</span></p>
         </section>
     </div>
 
