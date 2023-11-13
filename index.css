@@ -11,6 +11,9 @@ body {
 }
 
 .block1 {
+    margin: 2rem auto;
+    width: 95%;
+    max-width: 98%;
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
@@ -27,17 +30,32 @@ body {
 }
 
 .block1 h2 {
+    /* position: absolute;
+    top: 5rem; */
     text-align: center;
-    align-items: center;
+    margin-top: 4rem;
+}
+
+.hidden {
+    text-align: center;
     justify-content: center;
-    margin: 6rem;
+    margin-top: 7rem;
+    font-size: 50px;
+    height: 70px;
+    width: 100px;
+    background-color: rgb(16, 122, 122);
+    align-items: center;
+    margin-right: 300px;
+    padding: 20px;
 }
 
 .block2 {
+    margin: 2rem auto;
+    width: 100%;
+    max-width: 95%;
     display: flex;
-    justify-content: space-around;
-    position: relative;
-    top: 8rem;
+    justify-content: space-between;
+    padding: 20px;
 }
 
 .block2 section {
@@ -49,22 +67,15 @@ body {
     padding: 10px 40px 10px 40px;
     font-family: 'Press Start 2P';
     height: 50px;
-    position: absolute;
-    top: 40px;
-    left: 125px;
+    margin-top: 40px;
 }
 
 .block2 input {
-    height: 50px;
-    background-color: transparent;
-    padding: 20px;
+    font-family: "Press Start 2P";
     text-align: center;
-    align-items: center;
-    font-size: 40px;
-    width: 10rem;
+    background-color: transparent;
     color: white;
-    font-family: 'Press Start 2P';
-    position: absolute;
-    bottom: 100px;
-    left: 100px;
+    width: 10rem;
+    padding: 10px;
+    font-size: 40px;
 }
