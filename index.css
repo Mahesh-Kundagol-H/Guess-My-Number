@@ -26,15 +26,45 @@ body {
     height: 50px;
 }
 
-.block1 h1 {
-    position: absolute;
-    top: 10rem;
-    left: 260px;
+.block1 h2 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 6rem;
 }
 
 .block2 {
     display: flex;
     justify-content: space-around;
     position: relative;
-    top: 20rem;
+    top: 8rem;
+}
+
+.block2 section {
+    line-height: 40px;
+}
+
+.block2 button {
+    background-color: white;
+    padding: 10px 40px 10px 40px;
+    font-family: 'Press Start 2P';
+    height: 50px;
+    position: absolute;
+    top: 40px;
+    left: 125px;
+}
+
+.block2 input {
+    height: 50px;
+    background-color: transparent;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+    width: 10rem;
+    color: white;
+    font-family: 'Press Start 2P';
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
 }
